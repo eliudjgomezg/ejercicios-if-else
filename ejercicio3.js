@@ -11,7 +11,7 @@ Si quedan menos o igual a 50km, nosotros respondemos: "I'm parking, I see you ri
 
 let kilometros = 50.5
 
-function distance () {
+function distance2 () {
     if (kilometros > 100) {
         return "Are we there yet?"
     }else {
@@ -25,6 +25,6 @@ function distance () {
     }
 }
 
-let mensage = distance()
+let mensage = distance2()
 
 console.log(mensage)
